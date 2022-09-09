@@ -15,8 +15,13 @@ public class SnakeLadder
 		int rolldice=random.nextInt(6)+1;
 		System.out.println("roll die : "+rolldice);
 
-		
-		int option=random.nextInt(3);
+		int count=0;
+		while(p<100) 
+		{
+			rolldice=random.nextInt(6)+1;
+			System.out.println("number on die : "+rolldice);
+			int option=random.nextInt(3);
+			count++;
 		switch (option) 
 		{
 		case 0:
@@ -48,9 +53,11 @@ public class SnakeLadder
 
 		System.out.println("current position is "+p);
 	}
+	System.out.println("Number of times dice was played ="+count);
 
-
-
+	}
 }
+
+
 
 
