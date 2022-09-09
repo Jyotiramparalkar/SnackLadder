@@ -15,7 +15,7 @@ public class SnakeLadder
 		int rolldice=random.nextInt(6)+1;
 		System.out.println("roll die : "+rolldice);
 
-		//check for the option
+		
 		int option=random.nextInt(3);
 		switch (option) 
 		{
